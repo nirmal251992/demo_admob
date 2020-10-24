@@ -6,7 +6,6 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   //initialized app id
   Admob.initialize(AdManager.appId);
-  
   runApp(MyApp());
 }
 
